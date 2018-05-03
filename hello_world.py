@@ -5,3 +5,12 @@ def say_hello(name):
   else:
    print 'No name'
 say_hello("Tom")
+
+def reply(name):
+  if name:
+    print 'Hello to you too, %s!' % name
+
+  else:
+    print 'Please enter a name!'
+
+reply('Jeremy')
